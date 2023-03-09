@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Description>With This Package You Can Use Easily Dapper With Generic Crud
+برای استفاده از دپر بصورت جنریک از این محصول استفاده کنید</Description>
+    <Title>Use Dapper With Generic </Title>
+    <PackageTags>Dapper-GenericDapper-AzimiDeveloper</PackageTags>
+    <PackageReleaseNotes>این محصول امکان استفاده جنریک از دپر را فراهم کرده است</PackageReleaseNotes>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <Authors>Mehrdad Azimi</Authors>
+    <Company>Mahan Pardaz</Company>
+    <Copyright>AzimiDeveloper@Gmail.com</Copyright>
+    <PackageIcon>Untitled.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\Untitled.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
